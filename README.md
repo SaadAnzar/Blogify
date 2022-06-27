@@ -1,2 +1,2 @@
 # Blogify
-This is a Personal Portfolio Website made in NodeJS and ExpressJS using HTML, CSS, JavaScript and MongoDb for database.
+This is a Personal Blog Website made in NodeJS and ExpressJS using Handlebars, CSS, JavaScript and MongoDb for database.
