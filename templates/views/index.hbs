@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Blogify</title>
+</head>
+
+<body>
+
+  {{>navbar }}
+
+  {{!-- hero section starts --}}
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div
+            class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-itmes-start flex-column">
+            <h1>I'm ANZAR AHMAD</h1>
+            <h3>Wecome to my Personal Blog Website</h3>
+          </div>
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+            <figure>
+              <img src="/img/blogging-cuate.svg" alt="HeroSectionImage">
+              
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <a href="/flask" class="text-decoration-none"><h3 class="card-title">Flask Tutorial</h3></a>
+          <p class="card-text">A beginner's guide</p>
+          <p>Posted by <a href="/about" class="text-decoration-none">Anzar Ahmad</a> on 26-06-2022</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <a href="/ar" class="text-decoration-none"><h3 class="card-title">Augmented Reality</h3></a>
+          <p class="card-text">The Rise of Technology</p>
+          <p>Posted by <a href="/about" class="text-decoration-none">Anzar Ahmad</a> on 26-06-2022</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <a href="/social" class="text-decoration-none"><h3 class="card-title">Social Media</h3></a>
+          <p class="card-text">An Echo Chamber</p>
+          <p>Posted by <a href="/about" class="text-decoration-none">Anzar Ahmad</a> on 26-06-2022</p>
+        </div>
+      </div>
+
+      {{!-- <nav aria-label="...">
+        <ul class="pagination pagination-lg">
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">1</span>
+          </li>
+        </ul>
+      </nav> --}}
+
+    </div>
+  </div>
+
+  {{>footer }}
+
+  <script src="../jq/jquery.js" type="text/javascipt"></script>
+  <script src="../js/bootstrap.js" type="text/javascipt"></script>
+</body>
+
+</html>

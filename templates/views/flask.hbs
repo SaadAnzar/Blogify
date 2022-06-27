@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <style>
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+  </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Times:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Times:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <title>Blogify | Flask</title>
+</head>
+<body>
+    {{> navbar }}
+    <header class="masthead" style="background-image: url('/static/assets/img/flasky.jpeg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Flask</h1>
+                            <h2 class="subheading">A beginner&#39;s guide
+                            </h2>
+                            <span class="meta">
+                                Posted by
+                                <a href="/about">Anzar Ahmad</a>
+                                on 26-06-2022
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+
+                        <h3>Python for web development</h3>
+<p>Python is one of the prime choice of developers aiming to create websites/web apps as it has multiple web frameworks available that can kickstart your career in web development. Django, Flask, CherryPy etc.</p>
+<p>
+We will look at one of the most popular and widely used python web framework i.e Flask.</p>
+<h3>Flask</h3>
+<p>
+Flask is a light weight Python web microframework that provides useful tools and features that makes creating webapps in Python easier. It is one of the most beginner friendly framework out there which you can get started with if you know the fundamentals of Python. </p>
+<p>
+The widespread community has contributed in developing handy extensions for Flask that help with many functionalities like connecting to a database (eg. SQLAlchemy) or sending emails (eg. flask-mail).</p><p>
+There are other alternatives to Flask namely Django, FastAPI, CherryPy etc but <b>why Flask?</b></p><ul>
+<li>It is easier to learn and is suitable for small case projects.</li>
+<li>Routing URL functions through Werkzeug makes the process easier.</li>
+<li>Database integration is easy.</li>
+<li>Flexible and allow full control access.</li>
+<li>Hassle-free application development and maintenance.</li>
+<li>A vast programming community - this is helpful when you are unable to fix a bug, then it's very likely that it's solution is already present on the internet.</li></ul>
+<p>
+Flask allows you to get a web server up and running in just few lines of code, with very few dependencies and project setup required. Flask is not just a good choice for small personal projects, but it can also scale up to handle larger and more complex industry-level applications. </p><p>
+Some Tech giants that use Flask are Netflix, Reddit, Airbnb, Lyft, Mozilla, MIT, Uber.</p>
+<h3>Get Started</h3>
+<p>Inside your project directory, create a python file say, 'app.py'. Also create a directory named 'templates' inside your project folder. And therein save all the html files you will be rendering. Now open up app.py and type the following code:</p>
+<hr>
+<iframe src="https://lh3.googleusercontent.com/MmsK-4C74a0lYMXNen1U-0IvKAewbdD616cPQWxqX1Mw3WSiEZ9gTVAAL05Jy-pgT3mBvvD0kYRpL6veNC3sbh7uiX4M6JcEzxoFSgNGa8TwaGoyJT9LNbyWvZWT9lI4Mo-RFlk6Yr1EgI6fRm_fnqJwhaYjwxgYmn79eXdFnZVUFokyPEzWmKdHbvERNmpGm1raIJU0LZBac8DVdYeC-RHrjKEKifGrJzrIG7c74chQlaO8ITJz7qWSzfdqKUt5GQ52m5Sx4ZTA1yLeNzSwswnTUNqG_c9FaJIKHZnd94IDOaqqBJiF40FhwprlJGrf7DWfmiC-bROQkNhR1ub6U5ONq3NhX-36zJlBoQYcIWfqGSbEiGsgIgq3JJ5l0Aw1C-wLtUe6e52WXMi3lWj5ys7nU3XWjrZLXEgnRZH_sUV_xyZM-Sd7WiVeiCufH_Zof9TckUp_4lSH5e6PIaFVOZm8sRRnx53rAPyY_2BgxpPnatGCGiUeDJqsQA9O23OBk-hpxYawqz4RM2JM3xHWnqw0OmAJ_rKpO-50fRUbq-lTO68ujg7tvKzpRyKA0F8qwmHLOrrXQEhsaSZIPAXtzxBHnkVSgNMDoT6cGphqKBzCUmOEY6IuiO1QUu4X4tdPqy2Et6Y9E70vidDVT9SiAmTiSsGzRpQrGREIjowYJ4QMO5AG1C1mTp8x2eifNTqSPGOEVQjEeoSWObS70xD06PJ8J-ywwHzUQrG8sskTU8GYpUd7wm3a0N-dEkoCHS9ywcrr3g_Kmi5-TClKA_AMCmnSidyVOlDh70ZKcMBEEylio2H--u5PbYDHRzc-uhOkGfpnnA00WQighx01QO59cRr3FfIxpei082sWL_AocJA=w481-h400-no?authuser=0" width="600" height="400" align="center"></iframe>
+<br><br> <b><em>A minimal Flask webapp </b></em>
+<hr>
+<p>
+Yes! It's literally this easy to get your flask app all set to launch! Now head over to your CMD and run the following commands:</p><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>> set FLASK_APP=app<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp> flask run</b></p><p>
+Once the commands runs successfully, it will launch a simple built in server:</p><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b> * Running on server http://127.0.0.1:5000/</b></p>
+<p>
+This indicates that your website is now live on your local server. Now head over to 127.0.0.1:5000/ and you can see your website live!</p><p>
+<b><i>Congratulations!</i></b> This is how your first step towards web development using Flask.</p>
+                        <hr>
+    {{> footer }}
+</body>
+</html>

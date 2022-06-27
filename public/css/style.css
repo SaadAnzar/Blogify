@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+li,
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.row {
+  margin: 0;
+}
+
+.navbar-style {
+  background-color: #f8f9fa;
+  box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+}
+
+#logo {
+  display: initial;
+  font-weight: 600;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fd5c63;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #525252;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  font-size: 1.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fd5c63;
+}
+
+/* our hero sections  */
+
+.hero-text h1 {
+  font-size: 5.5rem;
+  line-height: 1.5;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+  letter-spacing: 1px;
+  color: #fd5c63;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-text h3:nth-child(2) {
+  font-weight: bold;
+  color: #5222d0;
+}
+
+.hero-text p,
+label {
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
+  font-weight: lighter;
+  color: #777676;
+  font-family: 'Poppins', sans-serif;
+  /* text-transform: capitalize; */
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.hero-text p span {
+  font-weight: bold;
+  color: #000;
+}
+
+.btn-style {
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  background: #ec615b;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 3rem;
+}
+
+.card-title {
+  columns: blue;
+  font-weight: bolder;
+}
+
+.card-text {
+  font-size: 2rem;
+}
+
+
+.about-style {
+  margin: 10rem 0;
+}
+
+.about-style .main-heading,
+.contact-style .main-heading {
+  font-size: 5rem;
+  color: #fd5c63;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.about-style .sub-heading,
+.contact-style .sub-heading {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+  line-height: 2;
+  color: #333;
+  font-weight: 500;
+}
+
+#aboutb {
+  font-weight: bolder;
+}
+
+
+.contact-style {
+  margin: 10rem 0;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.form-control {
+  padding: 1rem 1rem;
+  font-size: 1.7rem;
+}
+
+#emailHelp {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.popup {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 3rem; */
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: blue;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open -popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+
+/*========== FOOTER ==========*/
+.footer {
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+  padding: 1.5rem 0 1rem;
+  text-align: center;
+  transition: .4s;
+  color: #fd5c63;
+}
+
+.footer_copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: .5rem;
+  margin-bottom: 0;
+  font-size: 1.7rem;
+}
+
+.footer_copy1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+.footer_socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+
+.uil {
+  font-size: 2rem;
+  padding: 0 .3rem;
+}
+
+/* media queries part starts here  */
+
+@media (max-width: 768px) {
+  #logo {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  figure {
+    margin: 5rem 0;
+  }
+
+  figure img {
+    min-width: 100%;
+  }
+
+  .hero-text p,
+  label {
+    font-size: 1.5rem;
+  }
+
+  .about-style .sub-heading,
+  .contact-style .sub-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .footer_copy {
+    font-size: 1.5rem;
+  }
+
+  .footer_copy1 {
+    font-size: 1.5rem;
+  }
+}

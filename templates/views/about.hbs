@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Blogify</title>
+</head>
+<body>
+  {{>navbar }}
+
+  {{!-- about section starts --}}
+  <div class="container-fluid mt-5 about-style" id="aboutid">
+    <div class="row">
+        <h3 class="text-center mt-3 mb-3 text-primary" id="aboutb">Blogify is a Personal Blog Website developed by me to share my thoughts with the world.</h3>
+      <div class="col-md-10 col-12 mx-auto">
+        <h1 class="text-center main-heading">About Me</h1>
+        <p class="text-center sub-heading">Get To Know Me</p>
+
+        <div class="row">
+          <div class="col-md-6 col-12 hero-text">
+            <figure>
+              <img src="/img/happy.webp" alt="AboutSectionImage">
+            </figure>
+          </div>
+          
+          {{!-- right side --}}
+          <div class="col-md-6 col-12 hero-text d-flex justify-content-center align-itmes-start flex-column">
+            <p>Hello World! I'm Anzar Ahmad, an undergraduate student currently studying at Guru Gobind Singh Indraprastha University who has knowledge in fundamental aspects of Computer Science, including problem solving, programming, and artificial intelligence.I'm a Full Stack Developer, from New Delhi, India. I'm proficient in C, C++, HTML5, CSS3, JavaScript and its technologies. I'm currently building apps with React.js, Node.js, Express.js and working with backend while actively participating in hackathons. I like to learn new technology and stay up-to date with the technology advancements and trends.<br>I have a keen interest in Machine Learning as well, flavoured by my diagonal love for backend development. Currently I'm seeking research opportunities in the field of ML. Hope to pursue a career in research in order to use and expand upon the skills already achieved to enable a greater contribution to the Computer Science community. Apart from programming, I write blogs, keep a tab on European football.
+            </p>
+          </div>
+        </div>
+      </div>
+        <a href="https://anzar-ahmad.netlify.app" class="text-center sub-heading text-primary">Visit my Portfolio Website</a>
+    </div>
+  </div>
+  {{!-- about section ends --}}
+
+  {{>footer }}
+
+  <script src="../jq/jquery.js" type="text/javascipt"></script>
+  <script src="../js/bootstrap.js" type="text/javascipt"></script>
+</body>
+</html>
+
